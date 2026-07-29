@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+body{
+    font-family: "Artifika", serif;
+}
+
+.ringkasan{
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+}
+
+#pertumbuhan-ekonomi{
+    width: 450px;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+

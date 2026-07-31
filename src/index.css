@@ -1,21 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Artifika&display=swap");
 
-body{
-    font-family: "Artifika", serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.ringkasan{
+body {
+  font-family: "Arial", serif;
+}
+
+header {
+  width: 100%;
+  height: max-content;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.title {
+  padding: 10px 0 0 10px;
+  border: 0.67px solid #f3f4f6;
+}
+
+nav {
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+}
+
+main{
+    margin-top: 30px;
+}
+
+.ringkasan {
+  display: inline-block;
+  width: 700px;
+  vertical-align: top;
+}
+
+#pertumbuhan-ekonomi {
+  width: 450px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    position: relative;
+  }
+
+  .title {
     display: inline-block;
-    width: 700px;
-    vertical-align: top;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .link {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+  }
 }
 
-#pertumbuhan-ekonomi{
-    width: 450px;
+
+@media screen and (max-width: 768px){
+
+        nav{
+            text-align: center;
+        }
+        .title{
+            display: block;
+        }
+
+        li{
+            display: block;
+        }
+
+        .link{
+            position: static;
+        }
 }
-
-
-.underline{
-    text-decoration: underline;
-}
-
